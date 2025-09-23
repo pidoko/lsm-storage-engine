@@ -6,7 +6,6 @@
             "extensions": [
                 "ms-vscode.cpptool-extension-pack",
                 "ms-vscode.cmake-tools",
-                "twxs.cmake",
                 "vadimcn.vscode-lldb"
             ]
         }
