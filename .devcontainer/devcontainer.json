@@ -1,21 +1,14 @@
 {
     "name": "C++ Storage Engine Dev",
     "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
-    "features": {
-        "ghcr.io/devcontainers/features/cmake:1": {},
-        "ghcr.io/devcontainers/features/git:1": {}
-    },
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-vscode.cpptool-extension-pack",
                 "ms-vscode.cmake-tools",
                 "twxs.cmake",
-                "vadimcn.vscode-lldb",
-                "jeff-hykin.better-cpp-syntax",
-                "cschlosser.doxdocgen"
+                "vadimcn.vscode-lldb"
             ]
         }
-    },
-    "postCreateCommand": "bash .devcontainer/setup.sh"
+    }
 }
